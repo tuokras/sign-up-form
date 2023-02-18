@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.form {
+    outline: 1px solid black;
+    padding: 24px;
+}
+
+.image {
+    outline: 1px solid red;
+}
+
+.image img {
+    height: 100vh;
+    max-width: 33vw;
+    object-fit: cover;
+}
